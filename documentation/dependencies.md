@@ -86,13 +86,16 @@
 }
 
 
-# Deploy app on aws
+# Create app on aws
 
 ## Creat RDS
 
 - [This is ER image](https://github.com/adham-source/udagram/blob/master/screenshots/Databases.png)
 
+- [This is ER image](https://github.com/adham-source/udagram/blob/master/screenshots/DB_identifier.png)
+
 - [This is ER image](https://github.com/adham-source/udagram/blob/master/screenshots/DB_Security_Groups.png)
+
 
 ## Create Elastic Beanstalk
 
