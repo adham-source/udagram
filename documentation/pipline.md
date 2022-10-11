@@ -26,7 +26,7 @@ it has script to install each app and build it and deploy front end app
 - Add .cicleci directory and add config.yml which show workflow of app
 
 > ## third 
-- sign up on cercleci with github
+- sign in on cercleci with github
 - select udagram repo 
 - set up project
 
