@@ -11,10 +11,12 @@ it has script to install each app and build it and deploy front end app
     
 `frontend:install`: `cd udagram-frontend && npm install`
 `frontend:build`: `cd udagram-frontend && npm run build`
+`frontend:test`:`cd udagram-frontend && npm run test`
 `frontend:deploy`:`cd udagram-frontend && npm run deploy`
         
 `backend:install`: `cd udagram-api && npm install`
 `backend:build`: `cd udagram-api && npm run build`
+`backend:test`:`cd udagram-api && npm run test`,
 `backend:build`: `cd udagram-api && npm run deploy`
 
 
