@@ -41,7 +41,7 @@ jobs:
 workflows:
   push-master:
     jobs:
-      - build:
+      - deploy:
           filters:
             branches:
               only:
