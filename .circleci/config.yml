@@ -4,13 +4,12 @@ orbs:
   aws-cli: circleci/aws-cli@1.3.1
   eb: circleci/aws-elastic-beanstalk@1.0.0
 jobs:
-  deploy:
-    working_directory: ./udagram-api/www/Archive.zip
+  build:
     docker:
       - image: "cimg/base:stable"
     steps:
       - node/install
-      # - checkout
+      - checkout
       - aws-cli/install
       - eb/setup
       - run:
@@ -41,7 +40,7 @@ jobs:
 workflows:
   push-master:
     jobs:
-      - deploy:
+      - build:
           filters:
             branches:
               only:
