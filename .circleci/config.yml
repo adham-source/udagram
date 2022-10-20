@@ -6,8 +6,8 @@ orbs:
 jobs:
   deploy:
     working_directory: ./udagram-api/www/Archive.zip
-  docker:
-    - image: "cimg/base:stable"
+    docker:
+      - image: "cimg/base:stable"
     steps:
       - node/install
       - checkout
